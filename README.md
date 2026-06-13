@@ -1,3 +1,3 @@
 # NR-Align
 
-## To be announced for MICCAI 2026
+<font size="5"> To be announced for MICCAI 2026
