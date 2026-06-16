@@ -6,8 +6,6 @@ Official code release for our MICCAI 2026 accepted paper:
 
 This repository provides the open-source implementation of the data generation and training pipeline used in NR-Align. The toolkit builds physiology-aware synthetic non-simultaneous two-view training cases, converts them into backprojection volumes, and trains a compact 3D non-rigid alignment network for improving two-view coronary reconstruction under asynchronous acquisition.
 
-This release focuses on the reproducible research components of the method. It does **not** include private clinical data, hospital-specific preprocessing code, clinical evaluation scripts, proprietary upstream reconstruction weights, or the full prior reconstruction model.
-
 ## What Is Included
 
 - `generate_cases.py`: create asynchronous non-rigid two-view vessel masks.
