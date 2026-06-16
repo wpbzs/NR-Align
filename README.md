@@ -1,12 +1,12 @@
 # NR-Align
 
-Code release for:
+Official code release for our MICCAI 2026 accepted paper:
 
 **NR-Align: Non-Rigid Alignment for Non-simultaneous Two-View 3D Coronary Reconstruction in Complex Cardiac Interventions**
 
-This toolkit builds synthetic non-simultaneous two-view training cases, converts them into backprojection volumes, and trains a compact 3D alignment network.
+This repository provides the open-source implementation of the data generation and training pipeline used in NR-Align. The toolkit builds physiology-aware synthetic non-simultaneous two-view training cases, converts them into backprojection volumes, and trains a compact 3D non-rigid alignment network for improving two-view coronary reconstruction under asynchronous acquisition.
 
-It does not include private clinical data, hospital preprocessing code, clinical evaluation scripts, or the upstream prior reconstruction model.
+This release focuses on the reproducible research components of the method. It does **not** include private clinical data, hospital-specific preprocessing code, clinical evaluation scripts, proprietary upstream reconstruction weights, or the full prior reconstruction model.
 
 ## What Is Included
 
